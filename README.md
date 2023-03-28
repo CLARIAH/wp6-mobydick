@@ -11,10 +11,11 @@ This repo contains a single book in different representations:
 
 The conversion TEI to TF is done with [programs/tfFromTei.py](programs/tfFromTei.py).
 
-The conversion TF to Pandas is done with [programs/bigTable.py](programs/bigTable.py).
+The conversion TF to Pandas is done with
+[export.ipynb](https://nbviewer.org/github/annotation/mobydick/blob/main/tutorial/export.ipynb).
 
 For an example of how to use the Pandas file, see
-[programs/pandas.ipynb](https://nbviewer.org/github/CLARIAH/wp6-mobydick/blob/main/programs/pandas.ipynb).
+[programs/pandas.ipynb](https://nbviewer.org/github/annotation/mobydick/blob/main/tutorial/pandas.ipynb).
 
 See [docs](docs) for documentation about provenance and encoding.
 
@@ -28,7 +29,7 @@ pip install text-fabric pandas pyarrow
 ```
 
 Also, clone this repo, preferably in your
-`~/github/CLARIAH` directory.
+`~/github/annotation` directory.
 
 # Author
 

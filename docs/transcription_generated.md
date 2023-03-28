@@ -1,5 +1,5 @@
 
-# Corpus CLARIAH - wp6-mobydick
+# Corpus annotation - mobydick
 
 ## How a TF dataset represents a corpus
 
