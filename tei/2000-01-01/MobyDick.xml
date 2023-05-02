@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+			</sourceDesc>
+        </fileDesc>
+	</teiHeader>
+  <text>
+      <body>
+         <div n="i" type="chapter"><head>LOOMINGS</head>
+            <p>C<emph rend="sc">all</emph> me Ishmael.</p>
+         </div>
+         <div type="epilogue">
+            <head>EPILOGUE</head>
+            <p>‘<emph rend="sc">And I only am escaped alone to tell thee.</emph>’ JOB </p>
+         </div>
+         <trailer>
+            <emph rend="sc">finis</emph>
+         </trailer>
+      </body>
+  </text>
+</TEI>

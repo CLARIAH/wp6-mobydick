@@ -2,7 +2,7 @@ import types
 from tf.advanced.app import App
 
 
-KNOWN_RENDS = {'h6', 'h5', 'b', 'sub', 'super', 'small_caps', 'spaced', 'below', 'h2', 'h3', 'large', 'sup', 'above', 'h4', 'smallcaps', 'h1', 'spat', 'italic', 'margin', 'ul', 'bold', 'italics', 'sc', 'underline', 'center', 'i'}
+KNOWN_RENDS = {'sc', 'i', 'sup', 'bold', 'spaced', 'h4', 'h2', 'h3', 'center', 'super', 'b', 'h5', 'above', 'underline', 'margin', 'h1', 'large', 'italics', 'h6', 'sub', 'smallcaps', 'italic', 'small_caps', 'ul', 'spat', 'below'}
 
 
 def fmt_layout(app, n, **kwargs):
@@ -17,6 +17,7 @@ class TfApp(App):
             (f, f[5:]) for f in app.api.Fall() if f.startswith("rend_")
         )
         app.isFeatures = tuple(f for f in app.api.Fall() if f.startswith("is_"))
+
 
     def _wrapHtml(app, n):
         rendFeatures = app.rendFeatures
@@ -34,3 +35,5 @@ class TfApp(App):
         if rClses or iClses:
             material = f'<span class="{rClses} {iClses}">{material}</span>'
         return material
+
+

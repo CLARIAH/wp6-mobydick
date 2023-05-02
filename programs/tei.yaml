@@ -1,0 +1,22 @@
+generic:
+  author: Herman Melville
+  title: Moby Dick
+  dateWritten: 1851
+  language: en
+  converter: Dirk Roorda (Text-Fabric)
+  sourceFormat: TEI
+  descriptionTf: |-
+    Originally transcribed and deposited by Prof. Eugene F. Irey, University of Colorado
+  institute: Oxford Text Archive
+  sourceUrl: https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3049
+  license: CC-BY-SA 3.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+
+prelim: true
+wordAsSlot: false
+sectionModel:
+  model: II
+  element: head
+  levels:
+  - chapter
+  - chunk

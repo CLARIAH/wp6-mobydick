@@ -8,273 +8,273 @@ Contains the following sections:
 
 Formatting Attributes
 
-	<emph>       rend=          233x italic
-	             "              216x sc
+	mixed: <emph>             rend=                233x italic
+	                          "                    216x sc
 
-	<hi>         rend=            3x cursive
+	mixed: <hi>               rend=                  3x cursive
 
 Keyword Attributes
 
-	<div>        type=          135x chapter
-	             "                1x epilogue
-	             "                1x note
-	             "                1x preface
+	pure : <div>              type=                135x chapter
+	                          "                      1x epilogue
+	                          "                      1x note
+	                          "                      1x preface
 
-	<idno>       type=            1x isbn10
-	             "                1x isbn13
-	             "                1x ota
+	mixed: <idno>             type=                  1x isbn10
+	                          "                      1x isbn13
+	                          "                      1x ota
 
-	<name>       type=            1x email
-	             "                1x person
+	mixed: <name>             type=                  1x email
+	                          "                      1x person
 
-	<relatedItem> type=            1x older
+	pure : <relatedItem>      type=                  1x older
 
-	<term>       type=            1x genre
+	mixed: <term>             type=                  1x genre
 
-	<title>      type=            2x main
+	mixed: <title>            type=                  2x main
 
-	<titlePart>  type=            1x main
+	mixed: <titlePart>        type=                  1x main
 
 Remaining Attributes and Elements
 
-	<TEI>                         1x 
+	pure : <TEI>                                     1x 
 
-	<addrLine>                    8x 
+	mixed: <addrLine>                                8x 
 
-	<address>                     2x 
+	pure : <address>                                 2x 
 
-	<author>                      2x 
+	mixed: <author>                                  2x 
 
-	<authority>  id=              1x X
+	mixed: <authority>        id=                    1x X
 
-	<availability> status=          1x free
+	pure : <availability>     status=                1x free
 
-	<bibl>                        3x 
+	mixed: <bibl>                                    3x 
 
-	<biblFull>                    1x 
+	pure : <biblFull>                                1x 
 
-	<body>                        1x 
+	pure : <body>                                    1x 
 
-	<byline>                      1x 
+	mixed: <byline>                                  1x 
 
-	<change>     when=            1x NNNN-NN-NN
+	mixed: <change>           when=                  1x NNNN-NN-NN
 
-	<classDecl>                   1x 
+	pure : <classDecl>                               1x 
 
-	<creation>                    1x 
+	mixed: <creation>                                1x 
 
-	<date>                        1x 
-	             notAfter=        1x NNNN
+	mixed: <date>                                    1x 
+	                   notAfter=              1x NNNN
 
-	<distributor>                  1x 
+	mixed: <distributor>                             1x 
 
-	<div>        n=               1x c
-	             "                1x ci
-	             "                1x cii
-	             "                1x ciii
-	             "                1x civ
-	             "                1x cix
-	             "                1x cv
-	             "                1x cvi
-	             "                1x cvii
-	             "                1x cviii
-	             "                1x cx
-	             "                1x cxi
-	             "                1x cxii
-	             "                1x cxiii
-	             "                1x cxiv
-	             "                1x cxix
-	             "                1x cxv
-	             "                1x cxvi
-	             "                1x cxvii
-	             "                1x cxviii
-	             "                1x cxx
-	             "                1x cxxi
-	             "                1x cxxii
-	             "                1x cxxiii
-	             "                1x cxxiv
-	             "                1x cxxix
-	             "                1x cxxv
-	             "                1x cxxvi
-	             "                1x cxxvii
-	             "                1x cxxviii
-	             "                1x cxxx
-	             "                1x cxxxi
-	             "                1x cxxxii
-	             "                1x cxxxiii
-	             "                1x cxxxiv
-	             "                1x cxxxv
-	             "                1x i
-	             "                1x ii
-	             "                1x iii
-	             "                1x iv
-	             "                1x ix
-	             "                1x l
-	             "                1x li
-	             "                1x lii
-	             "                1x liii
-	             "                1x liv
-	             "                1x lix
-	             "                1x lv
-	             "                1x lvi
-	             "                1x lvii
-	             "                1x lviii
-	             "                1x lx
-	             "                1x lxi
-	             "                1x lxii
-	             "                1x lxiii
-	             "                1x lxiv
-	             "                1x lxix
-	             "                1x lxv
-	             "                1x lxvi
-	             "                1x lxvii
-	             "                1x lxviii
-	             "                1x lxx
-	             "                1x lxxi
-	             "                1x lxxii
-	             "                1x lxxiii
-	             "                1x lxxiv
-	             "                1x lxxix
-	             "                1x lxxv
-	             "                1x lxxvi
-	             "                1x lxxvii
-	             "                1x lxxviii
-	             "                1x lxxx
-	             "                1x lxxxi
-	             "                1x lxxxii
-	             "                1x lxxxiii
-	             "                1x lxxxiv
-	             "                1x lxxxix
-	             "                1x lxxxv
-	             "                1x lxxxvi
-	             "                1x lxxxvii
-	             "                1x lxxxviii
-	             "                1x v
-	             "                1x vi
-	             "                1x vii
-	             "                1x viii
-	             "                1x x
-	             "                1x xc
-	             "                1x xci
-	             "                1x xcii
-	             "                1x xciii
-	             "                1x xciv
-	             "                1x xcix
-	             "                1x xcv
-	             "                1x xcvi
-	             "                1x xcvii
-	             "                1x xcviii
-	             "                1x xi
-	             "                1x xii
-	             "                1x xiii
-	             "                1x xiv
-	             "                1x xix
-	             "                1x xl
-	             "                1x xli
-	             "                1x xlii
-	             "                1x xliii
-	             "                1x xliv
-	             "                1x xlix
-	             "                1x xlv
-	             "                1x xlvi
-	             "                1x xlvii
-	             "                1x xlviii
-	             "                1x xv
-	             "                1x xvi
-	             "                1x xvii
-	             "                1x xviii
-	             "                1x xx
-	             "                1x xxi
-	             "                1x xxii
-	             "                1x xxiii
-	             "                1x xxiv
-	             "                1x xxix
-	             "                1x xxv
-	             "                1x xxvi
-	             "                1x xxvii
-	             "                1x xxviii
-	             "                1x xxx
-	             "                1x xxxi
-	             "                1x xxxii
-	             "                1x xxxiii
-	             "                1x xxxiv
-	             "                1x xxxix
-	             "                1x xxxv
-	             "                1x xxxvi
-	             "                1x xxxvii
-	             "                1x xxxviii
+	pure : <div>              n=                     1x c
+	                          "                      1x ci
+	                          "                      1x cii
+	                          "                      1x ciii
+	                          "                      1x civ
+	                          "                      1x cix
+	                          "                      1x cv
+	                          "                      1x cvi
+	                          "                      1x cvii
+	                          "                      1x cviii
+	                          "                      1x cx
+	                          "                      1x cxi
+	                          "                      1x cxii
+	                          "                      1x cxiii
+	                          "                      1x cxiv
+	                          "                      1x cxix
+	                          "                      1x cxv
+	                          "                      1x cxvi
+	                          "                      1x cxvii
+	                          "                      1x cxviii
+	                          "                      1x cxx
+	                          "                      1x cxxi
+	                          "                      1x cxxii
+	                          "                      1x cxxiii
+	                          "                      1x cxxiv
+	                          "                      1x cxxix
+	                          "                      1x cxxv
+	                          "                      1x cxxvi
+	                          "                      1x cxxvii
+	                          "                      1x cxxviii
+	                          "                      1x cxxx
+	                          "                      1x cxxxi
+	                          "                      1x cxxxii
+	                          "                      1x cxxxiii
+	                          "                      1x cxxxiv
+	                          "                      1x cxxxv
+	                          "                      1x i
+	                          "                      1x ii
+	                          "                      1x iii
+	                          "                      1x iv
+	                          "                      1x ix
+	                          "                      1x l
+	                          "                      1x li
+	                          "                      1x lii
+	                          "                      1x liii
+	                          "                      1x liv
+	                          "                      1x lix
+	                          "                      1x lv
+	                          "                      1x lvi
+	                          "                      1x lvii
+	                          "                      1x lviii
+	                          "                      1x lx
+	                          "                      1x lxi
+	                          "                      1x lxii
+	                          "                      1x lxiii
+	                          "                      1x lxiv
+	                          "                      1x lxix
+	                          "                      1x lxv
+	                          "                      1x lxvi
+	                          "                      1x lxvii
+	                          "                      1x lxviii
+	                          "                      1x lxx
+	                          "                      1x lxxi
+	                          "                      1x lxxii
+	                          "                      1x lxxiii
+	                          "                      1x lxxiv
+	                          "                      1x lxxix
+	                          "                      1x lxxv
+	                          "                      1x lxxvi
+	                          "                      1x lxxvii
+	                          "                      1x lxxviii
+	                          "                      1x lxxx
+	                          "                      1x lxxxi
+	                          "                      1x lxxxii
+	                          "                      1x lxxxiii
+	                          "                      1x lxxxiv
+	                          "                      1x lxxxix
+	                          "                      1x lxxxv
+	                          "                      1x lxxxvi
+	                          "                      1x lxxxvii
+	                          "                      1x lxxxviii
+	                          "                      1x v
+	                          "                      1x vi
+	                          "                      1x vii
+	                          "                      1x viii
+	                          "                      1x x
+	                          "                      1x xc
+	                          "                      1x xci
+	                          "                      1x xcii
+	                          "                      1x xciii
+	                          "                      1x xciv
+	                          "                      1x xcix
+	                          "                      1x xcv
+	                          "                      1x xcvi
+	                          "                      1x xcvii
+	                          "                      1x xcviii
+	                          "                      1x xi
+	                          "                      1x xii
+	                          "                      1x xiii
+	                          "                      1x xiv
+	                          "                      1x xix
+	                          "                      1x xl
+	                          "                      1x xli
+	                          "                      1x xlii
+	                          "                      1x xliii
+	                          "                      1x xliv
+	                          "                      1x xlix
+	                          "                      1x xlv
+	                          "                      1x xlvi
+	                          "                      1x xlvii
+	                          "                      1x xlviii
+	                          "                      1x xv
+	                          "                      1x xvi
+	                          "                      1x xvii
+	                          "                      1x xviii
+	                          "                      1x xx
+	                          "                      1x xxi
+	                          "                      1x xxii
+	                          "                      1x xxiii
+	                          "                      1x xxiv
+	                          "                      1x xxix
+	                          "                      1x xxv
+	                          "                      1x xxvi
+	                          "                      1x xxvii
+	                          "                      1x xxviii
+	                          "                      1x xxx
+	                          "                      1x xxxi
+	                          "                      1x xxxii
+	                          "                      1x xxxiii
+	                          "                      1x xxxiv
+	                          "                      1x xxxix
+	                          "                      1x xxxv
+	                          "                      1x xxxvi
+	                          "                      1x xxxvii
+	                          "                      1x xxxviii
 
-	<docAuthor>                   1x 
+	mixed: <docAuthor>                               1x 
 
-	<docTitle>                    1x 
+	pure : <docTitle>                                1x 
 
-	<email>                       1x 
+	mixed: <email>                                   1x 
 
-	<encodingDesc>                  1x 
+	pure : <encodingDesc>                            1x 
 
-	<figDesc>                     1x 
+	mixed: <figDesc>                                 1x 
 
-	<figure>                      1x 
+	pure : <figure>                                  1x 
 
-	<fileDesc>                    1x 
+	pure : <fileDesc>                                1x 
 
-	<front>                       1x 
+	pure : <front>                                   1x 
 
-	<head>                      137x 
+	mixed: <head>                                  137x 
 
-	<keywords>   scheme=          1x #LCSH
+	pure : <keywords>         scheme=                1x #LCSH
 
-	<l>                          41x 
+	mixed: <l>                                      41x 
 
-	<langUsage>                   1x 
+	pure : <langUsage>                               1x 
 
-	<language>   ident=           1x eng
+	mixed: <language>         ident=                 1x eng
 
-	<licence>    target=          1x X
+	mixed: <licence>          target=                1x X
 
-	<name>                        2x 
+	mixed: <name>                                    2x 
 
-	<note>                        1x 
-	             anchored=       18x true
+	mixed: <note>                                    1x 
+	                   anchored=             18x true
 
-	<notesStmt>                   1x 
+	pure : <notesStmt>                               1x 
 
-	<p>                        2421x 
+	mixed: <p>                                    2421x 
 
-	<pb>         n=               9x N
-	             "               99x NN
-	             "              541x NNN
+	pure : <pb>               n=                     9x N
+	                          "                     99x NN
+	                          "                    541x NNN
 
-	<profileDesc>                  1x 
+	pure : <profileDesc>                             1x 
 
-	<pubPlace>                    1x 
+	mixed: <pubPlace>                                1x 
 
-	<publicationStmt>                  2x 
+	pure : <publicationStmt>                         2x 
 
-	<publisher>                   1x 
+	mixed: <publisher>                               1x 
 
-	<relatedItem> target=          1x X
+	pure : <relatedItem>      target=                1x X
 
-	<resp>                        1x 
+	mixed: <resp>                                    1x 
 
-	<respStmt>                    1x 
+	pure : <respStmt>                                1x 
 
-	<revisionDesc>                  1x 
+	pure : <revisionDesc>                            1x 
 
-	<sourceDesc>                  1x 
+	pure : <sourceDesc>                              1x 
 
-	<taxonomy>   id=              2x X
+	pure : <taxonomy>         id=                    2x X
 
-	<teiHeader>                   1x 
+	pure : <teiHeader>                               1x 
 
-	<text>                        1x 
+	pure : <text>                                    1x 
 
-	<textClass>                   1x 
+	pure : <textClass>                               1x 
 
-	<title>                       1x 
+	mixed: <title>                                   1x 
 
-	<titlePage>                   1x 
+	pure : <titlePage>                               1x 
 
-	<titleStmt>                   2x 
+	pure : <titleStmt>                               2x 
 
-	<trailer>                     1x 
+	mixed: <trailer>                                 1x 
