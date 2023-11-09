@@ -14,6 +14,10 @@ generic:
 
 prelim: true
 wordAsSlot: false
+parentEdges: false
+siblingEdges: false
+pageModel:
+  model: I
 sectionModel:
   model: II
   element: head

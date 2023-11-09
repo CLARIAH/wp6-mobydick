@@ -11,7 +11,7 @@ in 1851.
 Cite the source as
 [Melville, Herman, 1819-1891, Moby Dick, Oxford Text Archive](http://hdl.handle.net/20.500.12024/3049.).
 
-The url of this link is a persistent (handle) identifier.
+The URL of this link is a persistent (handle) identifier.
 
 # Copyright
 

@@ -1,23 +1,27 @@
 @node
 @author=Herman Melville
+@conversionCode=tf
+@conversionMethod=literal-composed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-02T15:33:08Z
+@dateWritten=2023-07-11T11:19:44Z
 @description=whether a slot or word is in the note element
 @descriptionTf=Originally transcribed and deposited by Prof. Eugene F. Irey, University of Colorado
 @institute=Oxford Text Archive
 @language=en
 @license=CC-BY-SA 3.0
 @licenseUrl=https://creativecommons.org/licenses/by-sa/3.0/
+@schema=
 @sourceFormat=TEI
 @sourceUrl=https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3049
+@teiVersion=2019-07-04
 @title=Moby Dick
 @valueType=str
-@version=0.2pre
+@version=0.2
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T15:34:55Z
+@dateWritten=2023-07-11T11:23:38Z
 
-113	1
+121	1
 1
 1
 1
@@ -31,7 +35,7 @@
 1
 1
 1
-65640	1
+65699	1
 1
 1
 1
@@ -126,7 +130,7 @@
 1
 1
 1
-65736	1
+65795	1
 1
 1
 1
@@ -194,7 +198,7 @@
 1
 1
 1
-88163	1
+88235	1
 1
 1
 1
@@ -939,7 +943,7 @@
 1
 1
 1
-91593	1
+91667	1
 1
 1
 1
@@ -1085,7 +1089,7 @@
 1
 1
 1
-95530	1
+95605	1
 1
 1
 1
@@ -1419,7 +1423,7 @@
 1
 1
 1
-107855	1
+107937	1
 1
 1
 1
@@ -1456,7 +1460,7 @@
 1
 1
 1
-119744	1
+119829	1
 1
 1
 1
@@ -1482,7 +1486,7 @@
 1
 1
 1
-125780	1
+125868	1
 1
 1
 1
@@ -1548,7 +1552,7 @@
 1
 1
 1
-130901	1
+130992	1
 1
 1
 1
@@ -1740,7 +1744,7 @@
 1
 1
 1
-136015	1
+136108	1
 1
 1
 1
@@ -1942,7 +1946,7 @@
 1
 1
 1
-138031	1
+138126	1
 1
 1
 1
@@ -2047,7 +2051,7 @@
 1
 1
 1
-152862	1
+152965	1
 1
 1
 1
@@ -2100,7 +2104,7 @@
 1
 1
 1
-154618	1
+154723	1
 1
 1
 1
@@ -2158,7 +2162,7 @@
 1
 1
 1
-171902	1
+172016	1
 1
 1
 1
@@ -2248,7 +2252,7 @@
 1
 1
 1
-177451	1
+177566	1
 1
 1
 1
@@ -2565,7 +2569,7 @@
 1
 1
 1
-190561	1
+190684	1
 1
 1
 1
@@ -2630,7 +2634,7 @@
 1
 1
 1
-215366	1
+215505	1
 1
 1
 1
@@ -2716,7 +2720,7 @@
 1
 1
 1
-249169	1
+249332	1
 1
 1
 1

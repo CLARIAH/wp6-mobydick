@@ -11,7 +11,7 @@ in 1851.
 Cite the source as
 [Melville, Herman, 1819-1891, Moby Dick, Oxford Text Archive](http://hdl.handle.net/20.500.12024/3049.).
 
-The url of this link is a persistent (handle) identifier.
+The URL of this link is a persistent (handle) identifier.
 
 # Copyright
 
@@ -34,7 +34,7 @@ Herman Melville
 Moby Dick
 
 
-## dateWritten
+## date written
 
 1851
 
@@ -49,12 +49,12 @@ en
 Dirk Roorda (Text-Fabric)
 
 
-## sourceFormat
+## source format
 
 TEI
 
 
-## descriptionTf
+## description TF
 
 Originally transcribed and deposited by Prof. Eugene F. Irey, University of Colorado
 
@@ -64,7 +64,7 @@ Originally transcribed and deposited by Prof. Eugene F. Irey, University of Colo
 Oxford Text Archive
 
 
-## sourceUrl
+## source URL
 
 https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3049
 
@@ -74,9 +74,24 @@ https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3049
 CC-BY-SA 3.0
 
 
-## licenseUrl
+## license URL
 
 https://creativecommons.org/licenses/by-sa/3.0/
+
+
+## version
+
+0.2
+
+
+## TEI version
+
+2019-07-04
+
+
+## schema
+
+
 
 
 ## Conversion

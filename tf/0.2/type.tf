@@ -1,23 +1,27 @@
 @node
 @author=Herman Melville
+@conversionCode=tei
+@conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-02T15:33:08Z
+@dateWritten=2023-07-11T11:19:44Z
 @description=this is TEI attribute type
 @descriptionTf=Originally transcribed and deposited by Prof. Eugene F. Irey, University of Colorado
 @institute=Oxford Text Archive
 @language=en
 @license=CC-BY-SA 3.0
 @licenseUrl=https://creativecommons.org/licenses/by-sa/3.0/
+@schema=
 @sourceFormat=TEI
 @sourceUrl=https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3049
+@teiVersion=2019-07-04
 @title=Moby Dick
 @valueType=str
-@version=0.2pre
+@version=0.2
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T15:34:55Z
+@dateWritten=2023-07-11T11:23:38Z
 
-262366	note
+262531	note
 preface
 chapter
 chapter
@@ -155,13 +159,13 @@ chapter
 chapter
 chapter
 epilogue
-263101	ota
+263266	ota
 isbn10
 isbn13
-263150	person
+263315	person
 email
-266248	older
-266256	genre
-266259	main
-266261	main
-266263	main
+266413	older
+266421	genre
+266424	main
+266426	main
+266428	main
